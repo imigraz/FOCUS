@@ -74,12 +74,12 @@ nnUNet_train_FOCUS 2d -t 111 112 113 115 -f 0 -num_epoch 250 -save_interval 25 -
 
 #### Parameter Description
 
-| Parameter | Description                                                                   | Default Values |
-|-----------|-------------------------------------------------------------------------------|----------------|
-| `CCD` | Channel-Consistent Dropout rate.                                              | 0.9 |
-| `DFP` | Domain Feature Percentage.                                                    | 0.05 |
-| `num_samples_in_perc` | Percentage of overall samples (volumes) for replay. For legacy compatibility. | 1.0 |
-| `layer_name` | Freezing and feature extraction point for encoder layers.                     | Dataset-dependent |
+| Parameter | Description                                                                                                 | Default Values |
+|-----------|-------------------------------------------------------------------------------------------------------------|----------------|
+| `CCD` | Channel-Consistent Dropout rate.                                                                            | 0.9 |
+| `DFP` | Domain Feature Percentage.                                                                                  | 0.05 |
+| `num_samples_in_perc` | Percentage of overall samples (volumes) for replay. For legacy compatibility. DFP overrides this selection. | 1.0 |
+| `layer_name` | Freezing and feature extraction point for encoder layers.                                                   | Dataset-dependent |
 
 The `-layer_name` parameter defines the encoder layer for feature extraction and parameter freezing. Note that FOCUS internally uses only first-level encoder features for replay, regardless of the specified extraction layer. This parameter maintains compatibility with the underlying framework while allowing proper encoder freezing configuration. We always set it to the network bottleneck.
 
