@@ -52,9 +52,6 @@ Detailed dataset preprocessing instructions are available at:
 ## 🚀 Training
 
 ### FOCUS Method
-
-The `-layer_name` parameter defines the encoder layer for feature extraction and parameter freezing. Note that FOCUS internally uses only first-level encoder features for replay, regardless of the specified extraction layer. This parameter maintains compatibility with the underlying framework while allowing proper encoder freezing configuration. We always set it to the network bottleneck.
-
 #### Hippocampus Dataset
 
 ```bash
@@ -74,6 +71,17 @@ nnUNet_train_sequential_GIN 2d -t 111 112 113 115 -f 0 -num_epoch 250 -save_inte
 # FOCUS method
 nnUNet_train_FOCUS 2d -t 111 112 113 115 -f 0 -num_epoch 250 -save_interval 25 -s seg_outputs --store_csv -layer_name conv_blocks_context.6 -num_samples_in_perc 1.0 -d 0 -seed 1 -CCD 0.9 -DFP 0.05 --exp_name focus
 ```
+
+#### Parameter Description
+
+| Parameter | Description                                                                   | Default Values |
+|-----------|-------------------------------------------------------------------------------|----------------|
+| `CCD` | Channel-Consistent Dropout rate.                                              | 0.9 |
+| `DFP` | Domain Feature Percentage.                                                    | 0.05 |
+| `num_samples_in_perc` | Percentage of overall samples (volumes) for replay. For legacy compatibility. | 1.0 |
+| `layer_name` | Freezing and feature extraction point for encoder layers.                     | Dataset-dependent |
+
+The `-layer_name` parameter defines the encoder layer for feature extraction and parameter freezing. Note that FOCUS internally uses only first-level encoder features for replay, regardless of the specified extraction layer. This parameter maintains compatibility with the underlying framework while allowing proper encoder freezing configuration. We always set it to the network bottleneck.
 
 ### Baseline Methods from Literature
 
@@ -131,15 +139,6 @@ After completion, results will be organized in your designated `nnUNet_EVALUATIO
 - **Aggregated Results:** `aggregated_summaries/` containing overall AVG, BWT, and FWT metrics
 - **Detailed Results:** `nnUNet_ext/2d/` contains predictions of all dataset samples and domain performance metrics
 - **Forward Transfer (FWT):** Requires single domain models trained with `nnUNet_train_sequential` and experiment name `seq`
-
-## 📈 Key Parameters
-
-| Parameter | Description                                                                   | Default Values |
-|-----------|-------------------------------------------------------------------------------|----------------|
-| `CCD` | Channel-Consistent Dropout rate.                                              | 0.9 |
-| `DFP` | Domain Feature Percentage.                                                    | 0.05 |
-| `num_samples_in_perc` | Percentage of overall samples (volumes) for replay. For legacy compatibility. | 1.0 |
-| `layer_name` | Freezing and feature extraction point for encoder layers.                     | Dataset-dependent |
 
 ## 📜 License
 
