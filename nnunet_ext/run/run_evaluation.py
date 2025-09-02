@@ -309,7 +309,6 @@ def run_evaluation_all():
     task_ids_all.append([198])
     task_ids_all.append([199])
     task_ids_all.append([111, 112, 113, 115])
-    task_ids_all.append([197, 198])
     task_ids_all.append([197, 198, 199])
     for task_ids in task_ids_all:
         for i in list(range(1)):
