@@ -1,0 +1,13 @@
+pytest==8.3.3
+einops==0.3.2
+batchgenerators==0.21
+matplotlib==3.9.2
+seaborn==0.13.2
+tensorboard==2.18.0
+fairscale==0.4.13
+umap-learn==0.5.7
+opencv-python==4.11.0.86
+git+https://github.com/MIC-DKFZ/nnUNet.git@77bc485ee025a61feb91cb0a0ed1c61a32a0f39f
+git+https://github.com/FabianIsensee/hiddenlayer.git@more_plotted_details#egg=hiddenlayer
+git+https://github.com/rwightman/pytorch-image-models.git@a41de1f666f9187e70845bbcf5b092f40acaf097
+-e .
