@@ -136,10 +136,10 @@ After completion, results will be organized in your designated `nnUNet_EVALUATIO
 
 | Parameter | Description                                                                   | Default Values |
 |-----------|-------------------------------------------------------------------------------|----------------|
-| `CCD` | Channel-Consistent Dropout rate                                               | 0.9 |
-| `DFP` | Domain Feature Percentage                                                     | 0.05 |
+| `CCD` | Channel-Consistent Dropout rate.                                              | 0.9 |
+| `DFP` | Domain Feature Percentage.                                                    | 0.05 |
 | `num_samples_in_perc` | Percentage of overall samples (volumes) for replay. For legacy compatibility. | 1.0 |
-| `layer_name` | Freezing and feature extraction point for encoder layers                      | Dataset-dependent |
+| `layer_name` | Freezing and feature extraction point for encoder layers.                     | Dataset-dependent |
 
 ## 📜 License
 
