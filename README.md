@@ -5,9 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.4-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 
-<div>
-  <img src="figures/FOCUS_overview_poster.png" alt="FOCUS Overview" style="border: 20px solid white; border-radius: 10px;">
-</div>
+![FOCUS Overview](figures/FOCUS_overview_poster.png)
 
 ## Abstract
 
