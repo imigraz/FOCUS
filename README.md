@@ -147,6 +147,7 @@ Please refer to the license information provided with the original lifelong nnU-
 ## 🙏 Acknowledgments
 
 This work builds upon the excellent [Lifelong-nnUNet](https://github.com/MECLabTUDA/Lifelong-nnUNet) framework. We thank the authors for making their code publicly available.
+Funded by Austrian Science Fund (FWF) 10.55776/PAT1748423.
 
 ---
 
