@@ -151,4 +151,4 @@ Funded by Austrian Science Fund (FWF) 10.55776/PAT1748423.
 
 ---
 
-**Contact:** For questions or issues, please open a GitHub issue or contact the corresponding author.
+**Contact:** For questions or issues, please open a GitHub issue. However, as a PhD student, repository maintenance will be sporadic, but I will attempt to address minor questions when possible.
