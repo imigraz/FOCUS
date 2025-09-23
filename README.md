@@ -7,6 +7,7 @@
 
 ![FOCUS Overview](figures/FOCUS_overview_poster.png)
 
+[Paper](https://doi.org/10.1007/978-3-032-05185-1_22)
 ## Abstract
 
 This repository contains the official implementation of **FOCUS** (Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections), a continual learning method for medical image segmentation across domain shifts. Unlike existing feature replay approaches that sacrifice U-Net skip-connections, FOCUS preserves these essential connections while maintaining privacy constraints and storage efficiency. Our method combines strong domain generalization techniques (GIN) with sparse feature replay using domain-balanced sampling (DBS), where sparsity is induced via channel-consistent dropout (CCD). 
