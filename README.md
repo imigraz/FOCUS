@@ -20,7 +20,7 @@ If you find this work useful in your research, please consider citing our paper:
 @inproceedings{Joham25-FOCUS,
     author = {Joham, Simon Johannes and Thaler, Franz and Hadzic, Arnela and Urschler, Martin},
     title = {{FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections}},
-    booktitle = {International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025, Daejeon, South Korea},
+    booktitle = {International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
     pages = {accepted, in press},
     year = {2025},
 }
