@@ -7,6 +7,7 @@
 
 ![FOCUS Overview](figures/FOCUS_overview_poster.png)
 
+[Paper](https://doi.org/10.1007/978-3-032-05185-1_22)
 ## Abstract
 
 This repository contains the official implementation of **FOCUS** (Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections), a continual learning method for medical image segmentation across domain shifts. Unlike existing feature replay approaches that sacrifice U-Net skip-connections, FOCUS preserves these essential connections while maintaining privacy constraints and storage efficiency. Our method combines strong domain generalization techniques (GIN) with sparse feature replay using domain-balanced sampling (DBS), where sparsity is induced via channel-consistent dropout (CCD). 
@@ -19,8 +20,8 @@ If you find this work useful in your research, please consider citing our paper:
 @inproceedings{Joham25-FOCUS,
     author = {Joham, Simon Johannes and Thaler, Franz and Hadzic, Arnela and Urschler, Martin},
     title = {{FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections}},
-    booktitle = {International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025, Daejeon, South Korea},
-    pages = {accepted, in press},
+    booktitle = {International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+    pages = {219--229},
     year = {2025},
 }
 ```
@@ -147,7 +148,8 @@ Please refer to the license information provided with the original lifelong nnU-
 ## 🙏 Acknowledgments
 
 This work builds upon the excellent [Lifelong-nnUNet](https://github.com/MECLabTUDA/Lifelong-nnUNet) framework. We thank the authors for making their code publicly available.
+Funded by Austrian Science Fund (FWF) 10.55776/PAT1748423.
 
 ---
 
-**Contact:** For questions or issues, please open a GitHub issue or contact the corresponding author.
+**Contact:** For questions or issues, please open a GitHub issue. However, as a PhD student, repository maintenance will be sporadic, but I will attempt to address minor questions when possible.
