@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections"
+type: software
+authors:
+  - family-names: Joham
+    given-names: Simon Johannes
+    orcid: "https://orcid.org/0009-0009-1817-2904"
+  - family-names: Thaler
+    given-names: Franz
+    orcid: "https://orcid.org/0000-0002-6589-6560"
+  - family-names: Hadzic
+    given-names: Arnela
+    orcid: "https://orcid.org/0009-0007-1476-3729"
+  - family-names: Urschler
+    given-names: Martin
+    orcid: "https://orcid.org/0000-0001-5792-3971"
+repository-code: "https://github.com/imigraz/FOCUS"
+license: Apache-2.0
+keywords:
+  - continual learning
+  - feature replay
+  - medical image segmentation
+  - domain shift
+  - nnU-Net
+preferred-citation:
+  type: conference-paper
+  title: "FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections"
+  authors:
+    - family-names: Joham
+      given-names: Simon Johannes
+      orcid: "https://orcid.org/0009-0009-1817-2904"
+    - family-names: Thaler
+      given-names: Franz
+      orcid: "https://orcid.org/0000-0002-6589-6560"
+    - family-names: Hadzic
+      given-names: Arnela
+      orcid: "https://orcid.org/0009-0007-1476-3729"
+    - family-names: Urschler
+      given-names: Martin
+      orcid: "https://orcid.org/0000-0001-5792-3971"
+  collection-title: "Medical Image Computing and Computer Assisted Intervention – MICCAI 2025"
+  collection-type: proceedings
+  conference:
+    name: "MICCAI 2025"
+  publisher:
+    name: "Springer Nature Switzerland"
+  doi: "10.1007/978-3-032-05185-1_22"
+  start: 219
+  end: 229
+  year: 2025
+  url: "https://doi.org/10.1007/978-3-032-05185-1_22"

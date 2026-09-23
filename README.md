@@ -1,7 +1,7 @@
 # FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections
 
 [![MICCAI 2025](https://img.shields.io/badge/MICCAI-2025-blue.svg)](https://conferences.miccai.org/2025/en/)
-[![Paper](https://img.shields.io/badge/Paper-Accepted-green.svg)]()
+[![Paper](https://img.shields.io/badge/Paper-Springer-green.svg)](https://doi.org/10.1007/978-3-032-05185-1_22)
 [![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.4-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 
@@ -20,9 +20,12 @@ If you find this work useful in your research, please consider citing our paper:
 @inproceedings{Joham25-FOCUS,
     author = {Joham, Simon Johannes and Thaler, Franz and Hadzic, Arnela and Urschler, Martin},
     title = {{FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections}},
-    booktitle = {International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+    series = {Lecture Notes in Computer Science},
+    publisher = {Springer Nature Switzerland},
     pages = {219--229},
     year = {2025},
+    doi = {10.1007/978-3-032-05185-1_22},
 }
 ```
 
